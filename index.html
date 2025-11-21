@@ -17,15 +17,28 @@
     iframe {
       border: none;
     }
+    .counter-container {
+      margin-top: 30px;       /* space between player and counter */
+      font-size: 0.9em;       /* slightly smaller look */
+      opacity: 0.85;          /* lighter feel like a footer */
+    }
   </style>
 </head>
 <body>
   <h1>Welcome to My Radio Station</h1>
+  
   <!-- Radiojar Player Embed -->
   <iframe src="https://www.radiojar.com/widget/radio/dz93m1q1qxcwv/player/?trackinfo&show_now&autoplay_off"
           width="320"
           height="360"
           scrolling="no">
   </iframe>
+  
+  <!-- Centered Hit Counter (daily only) -->
+  <div class="counter-container">
+    <a href="https://hits.sh/efi-1.github.io/Radio/">
+      <img alt="Hits" src="https://hits.sh/efi-1.github.io/Radio.svg?view=today-total&style=plastic&label=VISITORS TODAY&color=555555&labelColor=e6ffff"/>
+    </a>
+  </div>
 </body>
 </html>
