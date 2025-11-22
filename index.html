@@ -2,44 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Radiojar Station</title>
+  <title>Link to EFI-1 Radio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      background-color: #f4f4f4;
+      background: #0d0d0d;
+      color: #ff7518; /* spooky orange */
       margin: 0;
       padding: 50px;
     }
     h1 {
-      color: #333;
+      text-shadow: 2px 2px 4px #000;
     }
-    iframe {
-      border: none;
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #ff7518;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(255, 117, 24, 0.7);
+      transition: background 0.3s, color 0.3s;
     }
-    .counter-container {
-      margin-top: 30px;       /* space between player and counter */
-      font-size: 0.9em;       /* slightly smaller look */
-      opacity: 0.85;          /* lighter feel like a footer */
+    a:hover {
+      background: #ffa64d;
+      color: #111;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Radio Station</h1>
-  
-  <!-- Radiojar Player Embed -->
-  <iframe src="https://www.radiojar.com/widget/radio/dz93m1q1qxcwv/player/?trackinfo&show_now&autoplay_off"
-          width="320"
-          height="360"
-          scrolling="no">
-  </iframe>
-  
-  <!-- Centered Hit Counter (daily only) -->
-  <div class="counter-container">
-    <a href="https://hits.sh/efi-1.github.io/Radio/">
-      <img alt="Hits" src="https://hits.sh/efi-1.github.io/EFI-1_Radio_NFL/.svg?view=today-total&style=plastic&label=VISITORS TODAY&color=555555&labelColor=e6ffff"/>
-    </a>
-  </div>
+  <p>SATLD\ EFI-1 <a href="https://efi-1.github.io/Radio/" target="_blank">Radio</a> AT GitHub Pages</p>
 </body>
 </html>
-
